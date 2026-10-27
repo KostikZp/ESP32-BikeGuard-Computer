@@ -1,0 +1,6 @@
+-Os -ffunction-sections -fdata-sections
+-Wl,--gc-sections
+-DCORE_DEBUG_LEVEL=0
+-Dmbedtls_md5_starts_ret=mbedtls_md5_starts
+-Dmbedtls_md5_update_ret=mbedtls_md5_update
+-Dmbedtls_md5_finish_ret=mbedtls_md5_finish
